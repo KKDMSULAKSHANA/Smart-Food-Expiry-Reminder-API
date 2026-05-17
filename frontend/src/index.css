@@ -1,0 +1,53 @@
+/* e:\food\frontend\src\index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Custom styles for Ant Design overrides or specific component classes if needed */
+.dashboard-card-icon {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.dashboard-card-title {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-card-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.layout-container {
+  min-height: 100vh;
+}
+
+.content-area {
+  padding: 24px;
+  background: #f0f2f5;
+  transition: all 0.3s;
+}
+
+/* Make tables responsive */
+.ant-table-wrapper {
+  overflow-x: auto;
+}
+
+/* Expiring soon highlight */
+.urgent-row {
+  background-color: #fff1f0;
+}
